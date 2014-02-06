@@ -1,0 +1,104 @@
+
+material Hippies/SplashScreen
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture splashText.png
+			}
+		}
+	}
+}
+
+material Hippies/TitleScreen
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture titleText.png
+			}
+		}
+	}
+}
+
+material Hippies/HippyCharacter
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture hippie.png
+			}
+		}
+	}
+}
+
+material Hippies/MainCharacter
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture spaceship.png
+			}
+		}
+	}
+}
+
+material Hippies/Bullet
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture bullet.png
+			}
+		}
+	}
+}
+
+material Hippies/Dead
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture tombstone.png
+			}
+		}
+	}
+}
+
+material Hippies/GameOver
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture gameOver.png
+			}
+		}
+	}
+}
+
